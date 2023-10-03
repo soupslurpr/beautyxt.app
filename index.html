@@ -4,12 +4,12 @@
         <meta charset="utf-8"/>
         <title>BeauTyXT | Home Page</title>
         <meta name="description" content="BeauTyXT is a beautiful, private, and minimalistic
-                                          file editor leveraging Material Design 3"/>
+                                          text & markdown file editor leveraging Material Design 3"/>
         <meta name="theme-color" content="#22242b"/>
         <meta name="color-scheme" content="dark light"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta property="og:title" content="BeauTyXT: A beautiful, private, and minimalistic file editor"/>
+        <meta property="og:title" content="BeauTyXT: A beautiful, private, and minimalistic text & markdown file editor"/>
         <meta property="og:description" content="BeauTyXT is a beautiful, private, and minimalistic 
                                                  file editor leveraging Material Design 3"/>
         <meta property="og:type" content="website"/>
@@ -46,13 +46,13 @@
 
                 <div>
                     <h1><a href="#beautyxt">BeauTyXT</a></h1>
-                    <p>A beautiful, private, and minimalistic
+                    <p>A beautiful, private, and minimalistic text & markdown
                     file editor leveraging Material Design 3. <a href="https://github.com/soupslurpr/BeauTyXT">Open source.</a></p>
                     <a class="button" href="#download">Download BeauTyXT</a>
                 </div>
 
                 <figure class="device-img">
-                    <img class="phone-img" width="276" height="579" src="/BeauTyXT-opened-README.md.png" alt=""/>
+                    <img class="phone-img" width="276" height="579" src="/Grocery_list.png" alt=""/>
                 </figure>
 
             </div>
@@ -68,8 +68,8 @@
                     <h2 class="start"><a href="#about">About</a></h2>
         
                     <p>
-                        BeauTyXT is a beautiful, private, and minimalistic file editor.<br>
-                        Now supports editing and rendering Markdown (.md) files for even more BeauTy.<br>
+                        BeauTyXT is a beautiful, private, and minimalistic text & markdown file editor.<br>
+                        Now supports editing and rendering Markdown (.md & .markdown) files for even more BeauTy.<br>
                         Implements Material Design 3 and dynamic color schemes – because that's what the cool kids do 😎
                     </p>
         
@@ -84,7 +84,7 @@
                                         Unlike some other apps which might want access to all your files,
                                         BeauTyXT uses the Android Storage Access Framework (SAF) to let you pick which file to open
                                         without giving BeauTyXT access to all your files. BeauTyXT dosen't even have the INTERNET permission,
-                                        which apps need to make network connections.
+                                        which apps need to directly make network connections.
                                     </p>
                                 </details>
                             </li>
@@ -99,9 +99,9 @@
                             </li>
                             <li>
                                 <details>
-                                    <summary><strong>Written entirely in Kotlin</strong></summary>
+                                    <summary><strong>Written in Kotlin and Rust</strong></summary>
                                     <p>
-                                        BeauTyXT is written entirely in Kotlin.
+                                        BeauTyXT is written in Kotlin and Rust.
                                     </p>
                                 </details>
                             </li>
@@ -109,15 +109,15 @@
                                 <details>
                                     <summary><strong>Implements Material Design 3 and dynamic color</strong></summary>
                                     <p>
-                                        BeauTyXT implements Material Design 3 and dynamic color for a beautiful, yet minimalistic app.
+                                        BeauTyXT implements Material Design 3 and dynamic color for a beautiful, yet minimalistic look.
                                     </p>
                                 </details>
                             </li>
                             <li>
                                 <details>
-                                    <summary><strong>Markdown (.md) support</strong></summary>
+                                    <summary><strong>Markdown (.md & .markdown) support</strong></summary>
                                     <p>
-                                        BeauTyXT supports creating and editing Markdown (.md) files to liven up your text to the next level,
+                                        BeauTyXT supports creating and editing Markdown (.md & .markdown) files to liven up your text to the next level,
                                          while rendering live
                                          on the bottom side of the screen. Prefer not rendering Markdown? Then you can toggle it off in the settings.
                                     </p>
@@ -128,7 +128,7 @@
                                     <summary><strong>Any file extension option</strong></summary>
                                     <p>
                                         While BeauTyXT is primarily meant to edit Plain Text (.txt & .text)
-                                        and Markdown (.md) files, it also has the option to open and edit files of any type in plain text.
+                                        and Markdown (.md & .markdown) files, it also has the option to open and edit files of any type as plain text.
                                     </p>
                                 </details>
                             </li>
@@ -146,7 +146,7 @@
                                 <details>
                                     <summary><strong>Pitch black background option</strong></summary>
                                     <p>
-                                        Replaces the background with a pitch black color, while maintaining dynamic theming.
+                                        Replaces the background with a pitch black color, while keeping the rest of the dynamic theming.
                                         It is off by default, and can be toggled in settings.
                                         It is only in effect when dark mode is enabled.
                                     </p>
@@ -156,8 +156,22 @@
                                 <details>
                                     <summary><strong>File info dialog</strong></summary>
                                     <p>
-                                        You can get info about the opened file such as the name, size, and MIME type 
+                                        You can get info about the opened file such as the name, size, MIME type, word count, and character count 
                                         by tapping on the info icon while a file is open.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary><strong>Export options</strong></summary>
+                                    <p>
+                                        BeauTyXT has export options for Plain Text (.txt & .text) and Markdown (.md & .markdown) files.
+                                        Plain Text (.txt & .text) files can be printed (including print to pdf), or exported to Office Open XML (.docx).
+                                        Markdown (.md & .markdown) files can be exported as HTML (.html) files.
+                                        In addition, there is an experimental export Markdown (.md & .markdown) to Office Open XML (.docx) option which can
+                                        be enabled in the settings. Note that it does not support all features of Markdown
+                                        at this time and will be updated to support more. The setting description 
+                                        indicates the Markdown operations currently supported for conversion to Office Open XML (.docx).
                                     </p>
                                 </details>
                             </li>
@@ -177,12 +191,6 @@
 
                 </section>
         
-                <section id="screenshots">
-                    <h2><a href="#screenshots">Screenshots</a></h2>
-                    
-                    <img alt="BeauTyXT screenshot of README.md" src="/BeauTyXT-opened-README.md.png" style="max-width:250px; height:auto;">
-                </section>
-        
                 <section id="matrix-room">
                     <h2><a href="#matrix-room">Matrix Room</a></h2>
                     
@@ -190,6 +198,18 @@
                         BeauTyXT has a matrix room where you can discuss features, bugs, and give feedback. <br>
                         It's at <a href="https://matrix.to/#/#BeauTyXT:matrix.org">#BeauTyXT:matrix.org</a>.
                     </p>
+                </section>
+
+                <section id="screenshots">
+                    <h2><a href="#screenshots">Screenshots</a></h2>
+                    
+                    <img alt="A screenshot of the BeauTyXT app which has a file opened named 'Grocery list.txt'. The file info dialog is open and 
+                        displayed on top with information about the name, size, MIME type, word count, and character count of the text of the file."
+                        src="/Grocery_list_file_info.png" style="max-width:250px; height:auto;">
+
+                    <img alt="a screebshot of the BeauTyXT app which has a file opened named 'Grocery list.txt'. The save as dialog is open and
+                        displayed on top with an option to export the text file as a Office Open XML (.docx) file." src="/Grocery_list_save_as.png"
+                        style="max-width:250px; height:auto;">
                 </section>
             </div>
         </main>
