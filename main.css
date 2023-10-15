@@ -11,7 +11,7 @@ html {
     line-height: 1.5;
     letter-spacing: 0.009375rem;
     background-color: #fdfbff; /* grey50 */
-    color: #1a1c1e; /* 87% black */
+    color: #1a1b20; /*  */
     margin: 0;
     padding: 0;
     overflow-y: scroll;
@@ -31,7 +31,7 @@ html {
   }
   
   h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
-    color: #1a1c1e; /* 87% black */
+    color: #1a1b20; /* 87% black */
   }
   
   h1 {
@@ -117,7 +117,7 @@ html {
   }
   
   #site-menu ul li a {
-    color: #1a1c1e; /*  */
+    color: #1a1b20; 
     display: flex;
     text-decoration: none;
     padding: 1em;
@@ -125,7 +125,7 @@ html {
   }
   
   #site-menu ul li a:visited {
-    color: #1a1c1e; /*  */
+    color: #1a1b20; /*  */
   }
   
   #site-menu ul li[aria-current] a {
@@ -160,7 +160,7 @@ html {
     font-size: 0.9em;
     font-weight: bold;
     letter-spacing: 0.0892857143em;
-    background-color: #255fa4; /* accent_device_default_light => system_accent1_600 */
+    background-color: #475d92; /*  */
     border-radius: 20px;
     border: none;
     height: 40px;
@@ -168,17 +168,17 @@ html {
   }
   
   button:hover, .button:hover {
-    background-color: #255fa4; /* color between default and pressed */
+    background-color: #475d92; /* color between default and pressed */
     cursor: pointer;
   }
   
   button:focus, .button:focus {
-    background-color: #255fa4; /* button pressed on Android */
+    background-color: #475d92; /* button pressed on Android */
     box-shadow: 0 2px 4px -1px rgba(0 0 0 / 20%), 0 4px 5px 0 rgba(0 0 0 / 14%), 0 1px 10px 0 rgba(0 0 0 / 12%);
   }
   
   button:disabled {
-    background-color: #255fa4;
+    background-color: #475d92;
     color: rgb(26 27 30 / 38%);
     cursor: not-allowed;
   }
@@ -292,7 +292,7 @@ html {
   }
   
   .surface {
-    background-color: #f2f3fa;
+    background-color: #fffbff;
     width: 100%;
   }
   
@@ -327,8 +327,8 @@ html {
   
   @media (prefers-color-scheme: dark) {
     body {
-        background: #1a1c1e;
-        color: #e3e2e6; /* */
+        background: #1a1b20;
+        color: #e2e2e9; /* */
     }
   
     a {
@@ -340,20 +340,20 @@ html {
     }
   
     p, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
-        color: #e3e2e6; /*  */
+        color: #e2e2e9; /*  */
     }
   
     button, .button, .button:visited {
-        color: #003060;
-        background-color: #a7c8ff; /*  */
+        color: #152e60;
+        background-color: #b0c6ff; /*  */
     }
   
     button:hover, .button:hover {
-        background-color: #a7c8ff; /*  */
+        background-color: #b0c6ff; /*  */
     }
   
     button:focus, .button:focus {
-        background-color: #a7c8ff; /*  */
+        background-color: #b0c6ff; /*  */
     }
   
     button:disabled {
@@ -391,7 +391,7 @@ html {
     }
   
     .surface {
-        background-color: #212529;
+        background-color: #272932;
     }
   
     var {
@@ -399,7 +399,7 @@ html {
     }
 
     #site-menu ul li a {
-      color: #e3e2e6; /*  */
+      color: #e2e2e9; /*  */
       display: flex;
       text-decoration: none;
       padding: 1em;
@@ -407,10 +407,10 @@ html {
     }
     
     #site-menu ul li a:visited {
-      color: #e3e2e6; /*  */
+      color: #e2e2e9; /*  */
     }
     
     #site-menu ul li[aria-current] a {
-      color: #a7c8ff; /*  */
+      color: #b0c6ff; /*  */
     }
   }
